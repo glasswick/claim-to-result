@@ -14,6 +14,9 @@ full, against targets written down before any code runs.
 **Status (2026-10-30): nothing compared yet.** 4 papers touched; so far
 access and software environments, not compute, are the bottleneck.
 
+**Do you check research code?** [WOULD-THIS-HELP.md](WOULD-THIS-HELP.md)
+asks you one question.
+
 ## Read in this order
 - [PLAN.md](PLAN.md): the question, the sampling frame, the rules
   (tolerances, software, time, no code changes except file paths), how I

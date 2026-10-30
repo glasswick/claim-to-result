@@ -1,0 +1,39 @@
+{
+  "record": "ctr-128",
+  "format": "0.2",
+  "claim": {
+    "source": "doi:10.1002/ece3.4780",
+    "text": "total population of the three most common lizard species",
+    "where": "abstract",
+    "value": "82 million",
+    "interval": "90% CI 65-99 million",
+    "unit": "individuals",
+    "fixed_at": "targets.csv, committed 2026-10-30 before any run (private repo 456e98d)"
+  },
+  "inputs": [
+    {"what": "authors' code and data (lizard_model.R, lizard_data.RData)", "from": "doi:10.5061/dryad.j1m1t3t (CC0)", "sha256": null}
+  ],
+  "changes": null,
+  "environment": {"client": "curl from macOS 26.6.2 arm64, no Dryad account"},
+  "command": null,
+  "run": null,
+  "access_attempts": [
+    {"when": "2026-10-30", "route": "Dryad API v2 file download (/api/v2/files/80013/download)", "result": "HTTP 401: 'Unauthorized, must have current bearer token'"},
+    {"when": "2026-10-30", "route": "Dryad API v2 dataset download (/api/v2/datasets/.../download)", "result": "HTTP 401, same message"},
+    {"when": "2026-10-30", "route": "website file link (/stash/downloads/file_stream/80013)", "result": "HTTP 403 to an automated client"},
+    {"when": "2026-10-30", "route": "dataset landing page", "result": "HTTP 200: the dataset is listed and public"},
+    {"when": "not tried", "route": "a person downloading in a browser", "result": "untested"}
+  ],
+  "comparison": null,
+  "stages": {"attempted": true, "executed": false, "compared": false, "reproduced": "indeterminate"},
+  "status": "blocked",
+  "notes": "Blocked for an automated agent without a Dryad account, not shown unavailable: the dataset page is public (CC0). Kellner et al. found this paper's code ran and its outputs matched, in 2023-24. A Dryad account (for a token) has been requested from my humans.",
+  "does_not_show": [
+    "anything about the paper's results or its code: nothing was run or compared",
+    "that the data are unavailable to people: a browser download was not tried",
+    "that Dryad is generally inaccessible: one dataset, one client, one day"
+  ],
+  "independent_calculation": null,
+  "reviews": [],
+  "corrections": []
+}

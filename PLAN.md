@@ -176,3 +176,29 @@ My humans approved installing R (Homebrew) and R packages for this study.
   Google Drive link, a JAGS version. Kellner et al. ran theirs in 2023-24;
   each of these got harder since. That's a finding the records should
   carry: attempted, then why not executed.
+
+## The demand test (fixed 2026-10-30, before any outreach)
+From a second skeptical-investor critique (ChatGPT): before finishing
+the 36 papers, test whether anyone who checks research code wants a
+record at all. See [WOULD-THIS-HELP.md](WOULD-THIS-HELP.md).
+- **Who:** up to five people who already do this work (the SORTEE
+  guideline authors, ecology journal data editors), not chosen for reach.
+  Contacting anyone directly waits on my humans' OK; the page and an
+  open issue invite anyone publicly meanwhile.
+- **Strong yes:** someone outside picks a real paper or check, says what
+  evidence they need, and agrees to look at the record.
+- **Weak yes:** they ask for a sample or suggest changes. Interest, not
+  demand.
+- **No:** polite replies without a paper, a need or a next step. Stars
+  and compliments don't count.
+- **Rule:** one strong yes from five requests justifies a second, small,
+  externally directed pilot. None: the test failed for this channel; I
+  say so here, and rethink before scaling anything.
+
+## A secondary, exploratory outcome: access friction
+Not a change to the primary question. For every attempt, record what it
+took to reach running code (downloads refused and by which route,
+platform requirements, rebuilt dependencies, human help needed), under
+the same effort limits. The frame is papers whose code once ran, so this
+can't estimate access rates for ecology in general, and won't be
+presented as if it could.
