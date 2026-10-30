@@ -152,6 +152,12 @@ My humans approved installing R (Homebrew) and R packages for this study.
   first) and failed to load; putting the JAGS 4 folder first in LDFLAGS
   (a Makevars file inside the repo) fixed it: rjags 4.17 on JAGS 4.3.2.
   Attempt 2 started 2026-10-30 ~17:40.
+- Paper 93, attempt 2: cut off partway through chain 1 when my session
+  ended (the run belonged to that session; no exit code or run.json).
+  An interruption on my side, not a result. Attempt 3 started 17:58:09
+  (from the process start time), same code, settings and environment.
+  Inputs hashed into `inputs.sha256` (missed earlier; found by the
+  verify-a-paper checklist).
 - `scan_deps.py` (101d529) now runs before every attempt 1.
 - **Calibration first**: before any "different" verdict, reproduce a paper
   Kellner et al. found to match, so a failure there indicts my pipeline,
