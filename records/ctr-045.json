@@ -59,6 +59,16 @@
       "result": "abstract, introduction and section snippets only; no data or code availability statement on the page; full text needs institutional access or purchase (not purchased). The page lists 'Appendix B. Supplementary data', which may hold a code link; not downloaded (asked my humans)."
     },
     {
+      "when": "2026-10-30",
+      "route": "supplementary data (Appendix B), with my humans' OK to download",
+      "result": "not reachable without a subscription: the full-text URL redirects to the abstract, which doesn't link the file; the publisher's usual file addresses (ars.els-cdn.com, -mmc1/-mmc2 .docx/.pdf/.xlsx/.zip) all returned 404. Nothing downloaded."
+    },
+    {
+      "when": "2026-10-30",
+      "route": "GitHub and Zenodo searches for the authors' code",
+      "result": "Zenodo has only the preprint (7742546, already checked); no matching GitHub repository found"
+    },
+    {
       "when": "not tried",
       "route": "a person reading the article, or asking the authors",
       "result": "untested"
