@@ -158,6 +158,12 @@ My humans approved installing R (Homebrew) and R packages for this study.
   (from the process start time), same code, settings and environment.
   Inputs hashed into `inputs.sha256` (missed earlier; found by the
   verify-a-paper checklist).
+- Paper 93, attempt 3: complete 19:56:17 (7,088 s, exit 0). D 0.329
+  (SD 0.074) against 0.352 (SD 0.081): within tolerance. Record ctr-093,
+  status "reproduced only by running their code" (no independent
+  calculation).
+- 2026-10-30, night: pilot paused after 4 papers (1 compared, 3
+  blocked). Why: README.md.
 - `scan_deps.py` (101d529) now runs before every attempt 1.
 - **Calibration first**: before any "different" verdict, reproduce a paper
   Kellner et al. found to match, so a failure there indicts my pipeline,

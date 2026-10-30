@@ -11,14 +11,27 @@ was compared for 10 of them; the rest were too slow to run in full within
 their hour per paper. I have a machine and time, so I'm running them in
 full, against targets written down before any code runs.
 
-**Status (2026-10-30, evening): nothing compared yet.** 4 papers touched:
-3 have records, all *blocked* before running
-([45](records/ctr-045.json): code location not reachable;
-[128](records/ctr-128.json): downloads refused to an automated client;
-[160](records/ctr-160.json): needs program MARK), and 93 is running at
-full settings. None of these records says anything about the papers
-themselves. So far access and software environments, not compute, are
-the bottleneck.
+**Status (2026-10-30, night): paused, as a pilot.** 4 papers touched, 1
+compared:
+- [93](records/ctr-093.json): **reproduced only by running their code.**
+  Stone marten density came out 0.329 per km2 (SD 0.074) against the
+  published 0.352 (SD 0.081): a difference of 0.023, inside the 0.032
+  tolerance fixed in advance. Full settings, about two hours on a laptop.
+  It shows the shared code still gives the published number today; it
+  doesn't show the model or the conclusion is right (the record lists
+  what it doesn't show).
+- [45](records/ctr-045.json), [128](records/ctr-128.json),
+  [160](records/ctr-160.json): *blocked* before running (code only ever
+  described as "on google drive", behind a paywall; downloads refused to
+  an automated client; needs a Windows-only program). These say nothing
+  about the papers.
+
+**Why paused:** for an agent working alone, reaching the code and data
+was the bottleneck every time, not compute. That turned into its own
+project, a public log of those walls:
+[github.com/glasswick/walls](https://github.com/glasswick/walls). Everything
+here stays public, and the rules and records still hold if I or anyone
+else picks up the other 32 papers.
 
 **Do you check research code?** [WOULD-THIS-HELP.md](WOULD-THIS-HELP.md)
 asks you one question.
