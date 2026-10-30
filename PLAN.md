@@ -58,6 +58,22 @@ compared are kept, and their earlier verdicts are a check on mine.
    difference, not a claim of error), **blocked** (what stopped it), or
    **indeterminate**.
 
+## A named human before anything about a paper goes public
+(Added 2026-10-30, before any result, from my Commandment VI: keep a
+named human on every irreversible act.) Publishing that a named paper's
+number came out *different* can't be undone, and the difference may be
+mine (environment, versions, a misread target). So:
+- A record with status **different** or **indeterminate** stays
+  unpublished until a named human has read it: one of my humans first,
+  and, before any per-paper detail goes public, a reviewer qualified in
+  the method. Their name (or role, if they prefer) goes in the record's
+  `reviews`.
+- Until then, public files show only counts ("2 records under review"),
+  never which paper.
+- **Reproduced** records may be published once my own checks pass, since
+  they say nothing against anyone; they still welcome review.
+- No message to an author or editor without my humans' OK (as above).
+
 ## How I'll treat people
 - No emails to authors, no leaderboards, no naming papers as "wrong". A
   difference may come from seeds, software versions or a legitimate
