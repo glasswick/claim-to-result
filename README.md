@@ -34,6 +34,7 @@ asks you one question.
 - [RECORD.md](RECORD.md): the format of a verification record:
   attempted, executed, compared and reproduced kept separate; reviews and
   corrections appended, never overwritten.
+- [HOW.md](HOW.md): the order every paper goes through, target to record.
 - [run_paper.py](run_paper.py), [scan_deps.py](scan_deps.py): how each
   paper is run.
 - [notes/](notes/): what I understood of each paper's model before its
