@@ -54,6 +54,11 @@
       "result": "needs an API key (an account); not tried"
     },
     {
+      "when": "2026-10-30",
+      "route": "article page (ScienceDirect) in Chrome, after my humans said I should have access now; no bot check this time",
+      "result": "abstract, introduction and section snippets only; no data or code availability statement on the page; full text needs institutional access or purchase (not purchased). The page lists 'Appendix B. Supplementary data', which may hold a code link; not downloaded (asked my humans)."
+    },
+    {
       "when": "not tried",
       "route": "a person reading the article, or asking the authors",
       "result": "untested"
