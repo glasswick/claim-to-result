@@ -1,0 +1,75 @@
+{
+  "format": "0.2",
+  "changes": null,
+  "command": null,
+  "run": null,
+  "comparison": null,
+  "independent_calculation": null,
+  "reviews": [],
+  "corrections": [],
+  "record": "ctr-045",
+  "claim": {
+    "source": "doi:10.1016/j.biocon.2022.109593",
+    "text": "share of forest-dependent species whose pasture use fire reduced or eliminated",
+    "where": "abstract",
+    "value": "56%",
+    "interval": null,
+    "unit": "species",
+    "fixed_at": "targets.csv, committed 2026-10-30 before any run (private repo 456e98d)"
+  },
+  "inputs": [
+    {
+      "what": "authors' code and data",
+      "from": "Google Drive, per Kellner et al.'s notes; link not found",
+      "sha256": null
+    }
+  ],
+  "environment": {
+    "client": "curl and Chrome from macOS 26.6.2 arm64, no publisher or data accounts"
+  },
+  "access_attempts": [
+    {
+      "when": "2026-10-30",
+      "route": "Kellner et al. 2024 data (reproducible_papers.csv, Notes)",
+      "result": "says 'On google drive'; no link recorded"
+    },
+    {
+      "when": "2026-10-30",
+      "route": "preprint on Zenodo (record 7742546, CC BY-NC-ND)",
+      "result": "full text has no data or code availability statement and no link"
+    },
+    {
+      "when": "2026-10-30",
+      "route": "article page (ScienceDirect, via doi.org)",
+      "result": "bot check ('Just a moment...'); not bypassed"
+    },
+    {
+      "when": "2026-10-30",
+      "route": "Crossref metadata",
+      "result": "no linked dataset (relation empty)"
+    },
+    {
+      "when": "2026-10-30",
+      "route": "Elsevier article API",
+      "result": "needs an API key (an account); not tried"
+    },
+    {
+      "when": "not tried",
+      "route": "a person reading the article, or asking the authors",
+      "result": "untested"
+    }
+  ],
+  "stages": {
+    "attempted": true,
+    "executed": false,
+    "compared": false,
+    "reproduced": "indeterminate"
+  },
+  "status": "blocked",
+  "notes": "Kellner et al. ran this code in 2023-24 and found its outputs matched. Its location is in the published article, which an automated agent without accounts couldn't read. Code on a personal Google Drive also has no archival guarantee.",
+  "does_not_show": [
+    "anything about the paper's results or code: nothing was run",
+    "that the code is gone: a reader of the article may find the link",
+    "that the publisher blocks people: only an automated client was refused"
+  ]
+}

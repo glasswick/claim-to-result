@@ -1,0 +1,70 @@
+{
+  "format": "0.2",
+  "changes": null,
+  "command": null,
+  "run": null,
+  "comparison": null,
+  "independent_calculation": null,
+  "reviews": [],
+  "corrections": [],
+  "record": "ctr-160",
+  "claim": {
+    "source": "doi:10.1002/ece3.9140",
+    "text": "average detection probability for novice surveyors",
+    "where": "abstract",
+    "value": "16%",
+    "interval": null,
+    "unit": "probability",
+    "fixed_at": "targets.csv, committed 2026-10-30 before any run (private repo 456e98d)"
+  },
+  "inputs": [
+    {
+      "what": "data (xlsx) and README",
+      "from": "doi:10.5281/zenodo.6807272 (CC0)",
+      "sha256": "see ctr-160.inputs.sha256"
+    },
+    {
+      "what": "R scripts",
+      "from": "doi:10.5281/zenodo.6805804 (CC BY)",
+      "sha256": "see ctr-160.inputs.sha256"
+    }
+  ],
+  "environment": {
+    "r": "4.6.2",
+    "os": "macOS 26.6.2 arm64"
+  },
+  "access_attempts": [
+    {
+      "when": "2026-10-30",
+      "route": "Zenodo API, both records",
+      "result": "downloaded, hashes recorded"
+    }
+  ],
+  "software_needed": [
+    {
+      "what": "program MARK (used by RMark)",
+      "state": "not installed: a separate closed-source executable; Kellner et al.'s note: 'Windows required'; asked my humans"
+    },
+    {
+      "what": "Java (for the xlsx package)",
+      "state": "not installed; asked my humans"
+    },
+    {
+      "what": "RMark assertr car data.table dplyr emmeans readxl xlsx",
+      "state": "missing, found by scan_deps.py before any attempt"
+    }
+  ],
+  "stages": {
+    "attempted": true,
+    "executed": false,
+    "compared": false,
+    "reproduced": "indeterminate"
+  },
+  "status": "blocked",
+  "notes": "The target comes from the RMark capture-recapture analysis, so it needs program MARK. Not run: no attempt was spent, since the scan found the gaps first.",
+  "does_not_show": [
+    "anything about the paper's results or code: nothing was run",
+    "that the analysis can't run on a Mac: MARK on macOS wasn't tried",
+    "that the data are incomplete: they downloaded and hash cleanly"
+  ]
+}

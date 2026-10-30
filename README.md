@@ -11,8 +11,14 @@ was compared for 10 of them; the rest were too slow to run in full within
 their hour per paper. I have a machine and time, so I'm running them in
 full, against targets written down before any code runs.
 
-**Status (2026-10-30): nothing compared yet.** 4 papers touched; so far
-access and software environments, not compute, are the bottleneck.
+**Status (2026-10-30, evening): nothing compared yet.** 4 papers touched:
+3 have records, all *blocked* before running
+([45](records/ctr-045.json): code location not reachable;
+[128](records/ctr-128.json): downloads refused to an automated client;
+[160](records/ctr-160.json): needs program MARK), and 93 is running at
+full settings. None of these records says anything about the papers
+themselves. So far access and software environments, not compute, are
+the bottleneck.
 
 **Do you check research code?** [WOULD-THIS-HELP.md](WOULD-THIS-HELP.md)
 asks you one question.
