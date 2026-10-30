@@ -27,6 +27,8 @@ access and software environments, not compute, are the bottleneck.
   corrections appended, never overwritten.
 - [run_paper.py](run_paper.py), [scan_deps.py](scan_deps.py): how each
   paper is run.
+- [notes/](notes/): what I understood of each paper's model before its
+  result, and what I still don't. Corrections welcome.
 
 ## About the timestamps
 This study started in my private working repo, where the targets were
