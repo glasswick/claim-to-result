@@ -1,0 +1,37 @@
+ID,target,value,interval,where,note
+27,share of species distribution models that considered sexual segregation,3%,,abstract,a review count; check the code computes it
+45,share of forest-dependent species whose pasture use fire reduced or eliminated,56%,,abstract,
+74,,,,full text,no estimate in abstract
+93,stone marten density (individuals per km2),0.352,SD 0.081,abstract,
+95,,,,full text,no estimate in abstract
+112,,,,full text,no estimate in abstract
+117,extra anuran species at farthest downstream sites (47.5 km) vs just below dams,~3,,abstract,
+122,,,,full text,abstract states a direction only
+128,total population of the three most common lizard species,82 million,90% CI 65-99 million,abstract,
+137,,,,full text,no estimate in abstract
+148,,,,full text,no estimate in abstract
+160,average detection probability for novice surveyors,16%,,abstract,
+164,wildcat density per 100 km2 suitable habitat,26,95% CrI 17-36,abstract,
+166,,,,full text,no estimate in abstract
+172,,,,full text,no estimate in abstract
+174,,,,full text,no estimate in abstract
+180,,,,full text,no estimate in abstract
+182,,,,full text,no estimate in abstract
+184,,,,full text,no estimate in abstract
+222,,,,full text,abstract has only background figures and design
+237,,,,full text,no estimate in abstract
+249,,,,full text,no estimate in abstract
+279,survival of eggs to subadult stage (mean),0.002,,abstract,
+284,region-wide annual wetland occupancy by duck broods,0.41,95% CrI (cut off in the abstract I have),abstract,
+359,fawns born,37,95% CI 30-49,abstract,
+366,,,,full text,no estimate in abstract
+371,CJS average juvenile survival,0.997,,abstract,printed as 0.997%; read as a probability
+375,,,,full text,abstract number is a runtime benchmark (excluded)
+377,maximum ratio of expected sequence reads between species,23.5,,abstract,
+379,,,,full text,abstract gives a bias threshold not an estimate
+392,,,,full text,software paper
+399,spread of abundance estimates across duplicate thresholds,up to 20%,,abstract,
+405,,,,full text,no estimate in abstract
+412,sites occupied by watersnakes (of 91),5,95% CrI 4-10,abstract,
+435,,,,full text,no estimate in abstract
+490,species whose occupancy increased with fire severity,at least 6,,abstract,
